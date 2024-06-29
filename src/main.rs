@@ -22,6 +22,7 @@ mod register;
 mod databus;
 mod processing_unit;
 mod program_counter;
+mod arithmetic_logic_unit;
 
 fn main() {
 }

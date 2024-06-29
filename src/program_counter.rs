@@ -28,6 +28,10 @@ impl ProgramCounter {
         self.value
     }
 
+    pub fn set(&mut self, new_value: u8) {
+        self.value = new_value;
+    }
+
     /// Increment value of program counter
     pub fn advance(&mut self) {
         self.value += 1;
